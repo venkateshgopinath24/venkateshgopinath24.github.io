@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venkatesh Gopinath Bogem - Data & Machine Learning Enthusiast</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Venkatesh Gopinath Bogem | Data & Machine Learning Engineer</title>
     <style>
         :root {
             --bg-color: #1a1a1a;
@@ -15,12 +15,12 @@
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
             background-color: var(--bg-color);
+            color: var(--text-color);
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
+            line-height: 1.6;
         }
         h1, h2, h3 {
             color: var(--heading-color);
@@ -35,27 +35,26 @@
         a:hover {
             color: var(--accent-color);
         }
-        .tech-stack {
+        .tech-stack, .social-links {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 15px;
             margin-top: 20px;
         }
-        .tech-item {
+        .tech-item, .project, .experience {
             background-color: var(--card-bg);
-            padding: 15px;
+            padding: 15px 20px;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             transition: transform 0.3s ease;
         }
-        .tech-item:hover {
+        .tech-item:hover, .project:hover, .experience:hover {
             transform: translateY(-5px);
         }
         .social-links {
-            display: flex;
             justify-content: center;
             gap: 30px;
-            margin-top: 30px;
+            margin: 30px 0;
         }
         .social-links img {
             width: 40px;
@@ -65,168 +64,117 @@
         .social-links img:hover {
             transform: scale(1.2);
         }
-        .project {
-            background-color: var(--card-bg);
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .project h3 {
-            margin-top: 0;
-            color: var(--accent-color);
-        }
-        .experience {
-            background-color: var(--card-bg);
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .experience h3 {
-            margin-top: 0;
-            color: var(--accent-color);
+        footer {
+            text-align: center;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Venkatesh Gopinath Bogem</h1>
-        <p>Data Enthusiast</p>
+        <p>Data Engineer | Machine Learning Enthusiast | Cloud-native Solutions Architect</p>
     </header>
-    
+
     <main>
         <section>
-            <p>Welcome to my portfolio! I am a Data Engineer and Machine Learning practitioner passionate about solving real-world problems through scalable, cloud-based data solutions and cutting-edge machine learning techniques. With hands-on experience in building robust data pipelines, optimizing ETL workflows, and developing models for predictive analytics, I strive to deliver efficient and impactful data solutions.</p>
+            <p>I’m a passionate Data Engineer and Machine Learning practitioner dedicated to transforming raw data into impactful insights. With expertise across cloud platforms, scalable data pipelines, and model deployment, I strive to solve complex problems through data-driven solutions that scale. My work blends engineering precision with a research-driven mindset, bridging data systems and AI in production environments.</p>
         </section>
-        
+
         <section>
-            <h2>📫 Contact Information</h2>
+            <h2>📬 Contact</h2>
             <ul>
                 <li><strong>Email:</strong> <a href="mailto:bogemvenkateshgopinath@gmail.com">bogemvenkateshgopinath@gmail.com</a></li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/venkatesh-gopinath/">Venkatesh Gopinath</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/venkatesh-gopinath/">linkedin.com/in/venkatesh-gopinath</a></li>
                 <li><strong>GitHub:</strong> <a href="https://github.com/venkateshgopinath24">github.com/venkateshgopinath24</a></li>
             </ul>
         </section>
-        
+
         <section>
-            <h2>🛠 Tech Stack</h2>
+            <h2>🛠 Technical Stack</h2>
             <div class="tech-stack">
-                <div class="tech-item">💻 Programming Languages: Python, R, Java, SQL, NoSQL, Scala, Bash, JavaScript</div>
-                <div class="tech-item">☁️ Cloud Platforms: AWS, Google Cloud Platform, Microsoft Azure</div>
-                <div class="tech-item">🧰 Big Data & ETL: Apache Spark, Hadoop, PySpark, Hive, Kafka, Flink, Airflow</div>
-                <div class="tech-item">📊 Databases: MySQL, PostgreSQL, Snowflake, MongoDB, Cassandra, DynamoDB</div>
-                <div class="tech-item">🔧 Data Visualization: Tableau, PowerBI, Looker, AWS QuickSight, Matplotlib, D3.js</div>
-                <div class="tech-item">🔢 Machine Learning & NLP: TensorFlow, Keras, Scikit-learn, PyTorch, NLTK, SpaCy</div>
-                <div class="tech-item">📦 DevOps & CI/CD: Docker, Kubernetes, Jenkins, Terraform, Git, GitHub Actions</div>
-                <div class="tech-item">🚀 Development Tools: Flask, FastAPI, Django, NumPy, Pandas, MLflow, Jupyter</div>
+                <div class="tech-item">💻 Languages: Python, R, Java, SQL, NoSQL, Scala, Bash, JavaScript</div>
+                <div class="tech-item">☁️ Cloud: AWS, GCP, Azure</div>
+                <div class="tech-item">📦 Big Data: Apache Spark, Hadoop, Kafka, Flink, Hive, Airflow, PySpark</div>
+                <div class="tech-item">🗄 Databases: MySQL, PostgreSQL, MongoDB, Snowflake, Cassandra, DynamoDB</div>
+                <div class="tech-item">📊 Visualization: Tableau, PowerBI, Looker, QuickSight, Matplotlib, D3.js</div>
+                <div class="tech-item">🤖 ML & NLP: TensorFlow, PyTorch, Keras, Scikit-learn, NLTK, SpaCy</div>
+                <div class="tech-item">⚙️ DevOps: Docker, Kubernetes, Jenkins, Terraform, GitHub Actions</div>
+                <div class="tech-item">🧪 Tools: MLflow, Flask, FastAPI, Django, Pandas, Jupyter</div>
             </div>
         </section>
-        
+
         <section>
-            <h2>💼 Work Experience</h2>
+            <h2>💼 Experience</h2>
 
             <div class="experience">
                 <h3>Business Intelligence Engineer | Amazon (Jan 2025 – Present)</h3>
                 <ul>
-                    <li>Independently work on creating and running ETL jobs in Datanet using advanced SQL techniques (Window Functions, CTEs, etc.) to
-combine, join, and summarize data from various data sources, and feed aggregated tables into reports for automatic KPI calculation.</li>
-                    <li>Perform necessary transformations using SQL in Datagrip and Build and develop numerous AWS QuickSight dashboards to
-comprehensively demonstrate performance of various business systems and products.</li>
+                    <li>Designed and executed ETL pipelines using Datanet and advanced SQL to automate KPI reporting.</li>
+                    <li>Built multiple AWS QuickSight dashboards for end-to-end business performance tracking.</li>
                 </ul>
             </div>
-            
+
             <div class="experience">
                 <h3>Data Engineer | Abecedarian (May 2024 – Dec 2024)</h3>
                 <ul>
-                    <li>Building scalable data pipelines to integrate Gen AI techniques for automated data ingestion, transformation, and synthetic data generation.</li>
-                    <li>Implementing custom data models and ETL processes to optimize data flow and support advanced analytics and machine learning tasks.</li>
-                    <li>Leveraging cloud infrastructure (AWS, GCP) to deploy, monitor, and maintain scalable data solutions for Gen AI model deployment.</li>
-                    <li>Utilizing machine learning techniques to automate data transformation and generate insights for strategic decision-making.</li>
-                    <li>Ensuring data governance and security compliance while managing large datasets and implementing automated ETL processes.</li>
+                    <li>Engineered scalable GenAI-enabled pipelines for automated ingestion, transformation, and synthetic data generation.</li>
+                    <li>Deployed custom data models using AWS/GCP infrastructure and ensured compliance and security at scale.</li>
                 </ul>
             </div>
-            
+
             <div class="experience">
                 <h3>Data Engineer / Analyst | Datics Inc. (May 2023 – Dec 2023)</h3>
                 <ul>
-                    <li>Optimized SQL queries and integrated various databases like AWS RDS, MYSQL, Snowflake, MongoDB, AWS DynamoDB, etc improving data retrieval efficiency for large-scale projects.</li>
-                    <li>Enhanced ETL workflows by integrating AWS Glue with S3 for data storage and AWS Lambda for automated triggers, reducing data processing time from raw data to insights by 50%.</li>
-                    <li>Developed CI/CD pipelines by containerizing with Docker and managing tasks using Apache Airflow, improving deployment efficiency.</li>
-                    <li>Managed the data warehouse ensuring data accuracy and availability for downstream, enabling a 40% improvement in reporting efficiency.</li>
-                    <li>Built interactive dashboards using PowerBI and AWS QuickSight for real-time insights.</li>
+                    <li>Optimized ETL pipelines using AWS Glue, S3, Lambda, and Airflow—cutting processing time by 50%.</li>
+                    <li>Built dashboards (PowerBI, QuickSight) to support real-time decision-making across teams.</li>
                 </ul>
             </div>
 
             <div class="experience">
                 <h3>Data Engineer I | ACCK Solutions (Jun 2019 – Dec 2021)</h3>
                 <ul>
-                    <li>Engineered and optimized ETL workflows to process and transform over 1 million records daily from sources such as Facebook Ads, Google Analytics, and Salesforce CRM, ensuring data accuracy and timely availability for downstream analytics.</li>
-                    <li>Established data warehouse and data marts in Star and Snowflake schema via dimensional data modeling for MPP databases.</li>
-                    <li>Developed and optimized complex SQL queries and performance tuning through indexes, partitions, stored procedures, triggers and aggregations, resulting in faster generation of reports for stakeholders.</li>
-                    <li>Managed the data warehouse ensuring data accuracy and availability for downstream, enabling a 40% improvement in reporting efficiency.</li>
-                    <li>Developed and optimized large-scale data processing workflows using PySpark, handling over 500GB of data, and performing complex transformations and aggregations.<li>
-                    <li>Developed interactive visualizations and dashboards using Tableau, AWS QuickSight and PowerBI, transforming complex datasets into actionable insights for stakeholders, which improved decision-making processes.</li>
-                    <li>Collaborated with cross-functional teams in an Agile environment, leveraging Jira for tracking, to develop and optimize robust data pipelines</li>
+                    <li>Processed over 1M records/day using PySpark and optimized data pipelines across Ads, CRM, and Analytics tools.</li>
+                    <li>Built dimensional models (Star/Snowflake schema) and interactive dashboards in Tableau and PowerBI.</li>
                 </ul>
             </div>
 
             <div class="experience">
-                <h3>Machine Learning Assistant| Northeastern University (Sept 2022 – May 2024)</h3>
+                <h3>Machine Learning Assistant | Northeastern University (Sept 2022 – May 2024)</h3>
                 <ul>
-                    <li>Automated the grading process using Python, GitHub Actions for consistency and scalability and also assisted in grading exams and assignments, providing personalized feedback to help students understand machine learning concepts and improve their coding skills.</li>
-                    <li>Mentored students in building a range of machine learning models, including CNNs, RNNs, etc, using TensorFlow, PyTorch, and Keras.</li>
+                    <li>Automated grading systems using Python and GitHub Actions; mentored students on ML fundamentals and model development.</li>
                 </ul>
             </div>
-            <!-- Additional experiences can be added here following the same structure -->
         </section>
-        
+
         <section>
             <h2>🚀 Featured Projects</h2>
-            
+
             <div class="project">
-                <h3><a href="https://github.com/venkateshgopinath24/Reddit_data_pipeline"> Reddit Data Pipeline Engineering</a>🔗</h3>
-                <p><strong>Objective:</strong> Automated data pipeline using Apache Airflow and AWS services for Reddit data sentiment analysis.</p>
-                <p><strong>Technologies:</strong> Apache Airflow, AWS S3, Glue, Redshift, Athena, Docker, Python</p>
-                <p><strong>Key Achievement:</strong> Scaled data extraction to handle real-time Reddit post data, enabling efficient analysis.</p>
-            </div>
-            
-            <div class="project">
-                <h3><a href="https://github.com/venkateshgopinath24/speech-emotion-recognition"> MLOps Pipeline for Emotion Detection on GCP</a>🔗</h3>
-                <p><strong>Objective:</strong> Built a complete MLOps pipeline on Google Cloud Platform for emotion detection from text data.</p>
-                <p><strong>Technologies:</strong> TensorFlow, Apache Airflow, MLflow, Docker, Google Cloud (GCS, AI Platform)</p>
-                <p><strong>Key Achievement:</strong> Automated CI/CD process, reducing model deployment time by 40%.</p>
+                <h3><a href="https://github.com/venkateshgopinath24/Reddit_data_pipeline">Reddit Data Pipeline</a> 🔗</h3>
+                <p>Automated a sentiment analysis pipeline using Apache Airflow and AWS (S3, Glue, Redshift, Athena).</p>
             </div>
 
             <div class="project">
-                <h3><a href="https://github.com/venkateshgopinath24/Sentiment-Analysis-of-Online-Product-Reviews"> Sentiment Analysis of Online Product Reviews</a>🔗</h3>
-                <p><strong>Objective:</strong> To perform sentiment analysis on Amazon product reviews using VADER, RoBERTa, and Sequential Neural Networks with word and GloVe embeddings.</p>
-                <p><strong>Technologies:</strong> MLflow, Python, NLTK, TensorFlow, Keras, RoBERTa (Hugging Face), GloVe, AWS.</p>
-                <p><strong>Key Achievement:</strong> RoBERTa achieved 85% accuracy, outperforming VADER and neural networks, providing better contextual sentiment analysis.</p>
+                <h3><a href="https://github.com/venkateshgopinath24/speech-emotion-recognition">MLOps for Emotion Detection</a> 🔗</h3>
+                <p>Built an end-to-end MLOps pipeline on GCP with Airflow, MLflow, and Docker—reduced deployment time by 40%.</p>
             </div>
-            
-            <!-- Additional projects can be added here following the same structure -->
+
+            <div class="project">
+                <h3><a href="https://github.com/venkateshgopinath24/Sentiment-Analysis-of-Online-Product-Reviews">Product Review Sentiment Analysis</a> 🔗</h3>
+                <p>Compared VADER, RoBERTa, and LSTM models for review sentiment classification—RoBERTa achieved 85% accuracy.</p>
+            </div>
         </section>
     </main>
-    
+
     <footer>
-        <h2>🤝🏻 Connect with Me</h2>
-        
+        <h2>🤝 Connect with Me</h2>
         <div class="social-links">
-            <a href="https://www.instagram.com/okay_venky/" target="_blank" rel="noopener noreferrer">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png" alt="Instagram" />
-            </a>
-            <a href="https://www.linkedin.com/in/venkatesh-gopinath/" target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
-            </a>
-            <a href="mailto:bogem.v@northeastern.edu" target="_blank" rel="noopener noreferrer">
-                <img src="https://i.ibb.co/yd47Syb/outlook-image.png" alt="Outlook" />
-            </a>
-            <a href="mailto:bogemvenkateshgopinath@gmail.com" target="_blank" rel="noopener noreferrer">
-                <img src="https://i.ibb.co/PFkxDqt/Gmail-Logo.png" alt="Gmail" />
-            </a>
+            <a href="https://www.instagram.com/okay_venky/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/venkatesh-gopinath/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+            <a href="mailto:bogem.v@northeastern.edu" target="_blank"><img src="https://i.ibb.co/yd47Syb/outlook-image.png" alt="Outlook"></a>
+            <a href="mailto:bogemvenkateshgopinath@gmail.com" target="_blank"><img src="https://i.ibb.co/PFkxDqt/Gmail-Logo.png" alt="Gmail"></a>
         </div>
-        
         <p>⭐️ From <a href="https://github.com/venkateshgopinath24">Venkatesh Gopinath</a></p>
     </footer>
 </body>
